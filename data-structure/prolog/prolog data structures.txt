@@ -1,0 +1,11 @@
+In prolog, all data are represented by Prolog "terms".
+What are terms?
+    - an atom is a term
+    - a variable is a term
+    - integers and floating point numbers are terms
+    - a compound term is a term, defined inductiely as follows:
+        if T1, T2, ..., Tn are terms, then F(T1, T2, ..., Tn) is also a term,
+        where F is called the "functor" of the compound term, and "n" is
+        called the arity
+
+Ref: https://www.metalevel.at/prolog/data
