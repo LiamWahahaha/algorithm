@@ -1,6 +1,6 @@
-from backtrack import Combinatorial_Search
+from combinatorial_search import Backtracking
 
-class Permutation(Combinatorial_Search):
+class Permutation(Backtracking):
     def is_a_solution(self, current_answer, kth, info):
         return kth == len(info)
 
